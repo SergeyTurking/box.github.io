@@ -1,0 +1,467 @@
+/* header  */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    
+    background-image: url("./img/fon.jpg");
+    
+    
+    
+    background-repeat:repeat-x;
+    
+}
+header {
+    background-color: rgba(0, 0, 0, 0.38);
+    color: #ffff;
+   
+    width: 100%;
+   
+   
+    
+    
+    
+    
+    
+}
+.left_header {
+    position: relative;
+}
+.left_header::before {
+    content: '  ';
+    width: 10px;
+    
+    background-image: url('./img/logo_anim/2.png');
+   
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    
+    position: absolute;
+    animation: rotate 5s infinite linear;
+
+}
+
+@keyframes rotate {
+from {
+    transform: rotate(0deg);
+}
+
+
+100%{
+    transform: rotate(360deg);
+}
+}
+
+
+.wriper {
+    display: flex;
+    justify-content: center;
+    
+}
+.logo {
+    width: 100px; 
+    
+ 
+    
+}
+
+
+.right_header2 {
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 30px;
+    
+}
+.right_header {
+    
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    margin-left: 900px;
+   
+}
+
+
+.social {
+    display: flex;
+   
+    
+}
+.SC {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    
+   
+}
+.botton_rh {
+    padding-top: 10px;
+    font-family: 'Revalia', cursive;
+}
+.number {
+    font-size: 22px;
+}
+/* logo  */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.mi {
+    width: 700px;
+    margin-bottom: -4px;
+}
+
+.logo_txt {
+    
+    font-size: 72px;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: aliceblue;
+    font-family: 'Revalia', cursive;
+    width: 300px;
+    font-weight: 900;
+    transition: transform 0.5s ease-out;
+}
+.logo_txt2 {
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: 'Revalia', cursive;
+    width: 300px;
+    font-weight: 900;
+    transition: transform 0.5s ease-out;
+}
+.logo_button2 {
+    width: 225px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Revalia', cursive;
+    text-decoration: none;
+    font-weight: 800;
+    border: none;
+    
+    cursor: pointer; 
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+}
+.logo_button2:hover{
+    background-color: rgba(240, 248, 255, 0.534);
+}
+
+/* about  */
+.about_photo {
+    width: 600px;
+    margin-top: 30px;
+   
+}
+.left_about {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 650px;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-family: Roboto ;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    background-color:#ffff;
+   
+}
+.right_about {
+    margin-right: -30px;
+}
+
+.trainer {
+    margin-top: -20px;
+    font-size: 16px;
+}
+.experience {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.kms {
+    margin-top: -20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+li {
+    margin-left: 20px;
+}
+ul{
+    margin-left: -40px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+/* галлерея */
+.botton {
+    width: 10%;
+    cursor:pointer;
+}
+.img_top {
+    width: 100%;
+}
+.gallery2 {
+    margin-top: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.gallary_top {
+    
+    display: flex;
+    justify-content: center;
+}
+
+/* gallary2000 */
+
+.img1 {
+    background-image: url("./img/img_box1.jpg");
+    height: 80vh;
+    width: 100%;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-position: center center;
+
+}
+.img2 {
+    background-image: url("./img/img_box2.jpg");
+    height: 80vh;
+    width: 10%;
+    z-index: 2;
+    background-position: center center;
+   
+    
+}
+.img3 {
+    background-image: url("./img/img_box1.jpg");
+    height: 80vh;
+    width: 10%;
+    z-index: 3;
+    background-position: center center;
+}
+.img4 {
+    background-image: url("./img/img_box2.jpg");
+    height: 80vh;
+    width: 10%;
+    z-index: 4;
+    background-position: center center;
+}
+.img5 {
+    background-image: url("./img/img_box1.jpg");
+    height: 80vh;
+    width: 10%;
+    z-index: 5;
+    background-position: center center;
+}
+
+.img {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 1000px 700px;
+    
+
+}
+
+    .gallary_new2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 auto;
+        
+        max-width: 1300px;
+        max-height: 1300px;
+        margin-bottom: 100px;
+        
+       
+    }
+
+.gallery_new {
+    margin-bottom: 200px;
+    height: 520px;
+    margin-top: 100px;
+    
+    
+    
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Revalia', cursive;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Revalia', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+/* цена 
+ */
+
+ .priceIMG1 {
+    width: 40%;
+    margin-right: 10%;
+ }
+ .priceIMG2 {
+    width: 40%;
+    margin-left: 10%;
+
+    
+    
+ }
+
+ .price1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+ }
+ .price2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+ }
+ .priceP {
+    font-size: 24px;
+    
+    
+ }
+ .prace {
+    margin-top: 50px;
+ }
+ .prace_txt {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ span {
+    color: green;
+ }
+ 
+ /* Видео  */
+ .sbori {
+    margin-top: 100px;
+   
+ }
+ .sbori_video {
+    display: flex;
+    justify-content: space-between;
+
+ }
+ /* запись  */
+ .zapis {
+    
+    background-image: url('./img/fon2.jpg');
+    height: 750px;
+    background-repeat: repeat-x;
+    position: relative;
+
+    
+ }
+ .form  {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+ }
+ .form0 {
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Revalia', cursive;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+ }
+ .form3 {
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    
+ }
+ .send {
+    height: 40px;
+        width: 255px;
+        font-size: 20px;
+        font-family: 'Revalia', cursive;
+        text-decoration: none;
+        font-weight: 200;
+        border: none;
+        color:rgba(153, 153, 153, 0.7);
+        border-radius: 5px;
+        
+        
+        cursor: pointer; 
+        text-align: center;
+        background-color: aliceblue;   
+ }
+ .send:hover {
+        background-color: rgba(240, 248, 255, 0.445); 
+        color: black;
+ }
+ .h1 {
+    color: #ffff;
+    padding-top: 260px;
+ }
+ .zapis::before {
+        display: block;
+        width: 500px;
+        height: 100px;
+        content: "Flying Like a Butterfly";
+        color: rgba(255, 255, 255, 0.15);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        font-family: "Gilroy";
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 30px;
+        
+ }
+ .zapis::after {
+    display: block;
+    width: 500px;
+    height: 100px;
+    content: "Shoot Like a Bee";
+    color: rgba(255, 255, 255, 0.15);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    font-family: "Gilroy";
+    position: absolute;
+   margin-top: -100px;
+   margin-left: 830px;
+        
+ }
+
